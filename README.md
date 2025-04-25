@@ -11,16 +11,14 @@ This project demonstrates automated UI testing using **Playwright** with **TypeS
 
 ## 🚀 Getting Started
 
-    1. Clone the Repository
-
-        ```bash
+    ### 1. Clone the Repository
         git clone https://github.com/Pwngtm/playwright-ui-automation.git
-        cd playwright-ui-automation
+        cd playwright-ui-automation ```
 
-    2. Install Dependencies
+    ### 2. Install Dependencies
         npm install
 
-    3. Create .env File
+    ### 3. Create .env File
 
         In the root of the project, create a .env file and add the following:
 
@@ -32,32 +30,32 @@ This project demonstrates automated UI testing using **Playwright** with **TypeS
 
 ## 🧪 Running Tests
 
-    Run All Tests
-        `npm test`
-    Run with HTML Report (explicit)
-        `npm run test:html`
-    Run Tests in Headed Browser
-        `npm run test:headed`
-    Run Specific Test Files
-        `npm run test:login      # Only login tests
+    ### Run All Tests
+        npm test
+    ### Run with HTML Report (explicit)
+        npm run test:html
+    ### Run Tests in Headed Browser
+        npm run test:headed
+    ### Run Specific Test Files
+        npm run test:login      # Only login tests
         npm run test:cart       # Only cart tests
         npm run test:checkout   # Only checkout tests
-        `
-    Run in Chromium with HTML Report
-        `Run in Chromium with HTML Report`
-    Run in Serial Mode (non-parallel)
-        `npm run test:serial`
-    Run Specific Test Case by Name
-        `npm run test:name`
+
+    ### Run in Chromium with HTML Report
+        Run in Chromium with HTML Report
+    ### Run in Serial Mode (non-parallel)
+        npm run test:serial
+    ### Run Specific Test Case by Name
+        npm run test:name
 
 ## 📊 Viewing HTML Test Reports
 
     Reports are generated automatically after running tests.
 
-    Open Report
-        `npm run test:report`
-    Or manually:
-        `npx playwright show-report`
+    ### Open Report
+        npm run test:report
+    ### Or manually:
+        npx playwright show-report
 
 ## 📁 Project Structure
 
