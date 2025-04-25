@@ -1,0 +1,33 @@
+{
+  "name": "playwright-ui-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report",
+    "test:login": "npx playwright test tests/login.spec.ts",
+    "test:cart": "npx playwright test tests/cart.spec.ts",
+    "test:checkout": "npx playwright test tests/checkout.spec.ts",
+    "test:chrome": "npx playwright test --project=chromium",
+    "test:chrome:html": "npx playwright test --project=chromium --reporter=html && npx playwright show-report",
+    "test:firefox": "npx playwright test --project=firefox",
+    "test:webkit": "npx playwright test --project=webkit",
+    "test:serial": "npx playwright test --workers=1",
+    "test:name": "npx playwright test -g 'Test name here'",
+    "test:trace": "npx playwright show-trace trace.zip"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.1",
+    "dotenv": "^16.5.0",
+    "playwright": "^1.52.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
