@@ -42,7 +42,7 @@ This project demonstrates automated UI testing using **Playwright** with **TypeS
         npm run test:checkout   # Only checkout tests
 
     ### Run in Chromium with HTML Report
-       npx playwright test --project=chromium --reporter=html && npx playwright show-report
+       npm run test:chrome:html
     ### Run in Serial Mode (non-parallel)
         npm run test:serial
     ### Run Specific Test Case by Name
